@@ -5,7 +5,7 @@ import numpy as np
 
 # Memuat model dan scaler
 package = joblib.load(
-    "deployment_model/clustering_deployment.joblib"
+    "clustering_deployment.joblib"
 )
 
 model = package["model"]
